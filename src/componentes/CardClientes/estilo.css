@@ -1,0 +1,77 @@
+.cardCliente {
+  width: 360px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+  padding: 0px 24px;
+}
+
+.cabecalho-tabelaClientes {
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eff0f7;
+}
+
+.cabecalho-tabelaClientes h1 {
+  margin-left: 32px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  color: #3f3f55;
+}
+
+.cabecalho-tabelaClientes h2 {
+  background: #ffefef;
+  border-radius: 8px;
+  padding: 0 15px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 130%;
+  color: #971d1d;
+}
+
+.rotulo-tabela-card-clientes {
+  display: flex;
+  align-items: center;
+  height: 66px;
+  border-bottom: 1px solid #eff0f7;
+}
+
+.rotulo-tabela-card-clientes h1 {
+  font-family: 'Nunito';
+  font-size: 16px;
+  line-height: 50px;
+  letter-spacing: 0.005em;
+  color: #3F3F55;
+}
+
+.rotulo-tabela-card-clientes-Clientes {
+  width: 110px;
+}
+
+.rotulo-tabela-card-clientes-Rotulo {
+  width: 110px;
+}
+
+.rotulo-tabela-card-clientes-Valor {
+  width: 92px;
+}
+
+.linkMiniTabela {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkMiniTabela a {
+  font-family: "Nunito";
+  font-size: 18px;
+  line-height: 130%;
+  text-decoration-line: underline;
+  color: #da0175;
+  cursor: pointer;
+}

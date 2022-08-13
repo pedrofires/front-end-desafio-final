@@ -1,0 +1,141 @@
+.container-modal {
+   position: fixed;
+   z-index: 2;
+   top: 0;
+   left: 0;
+
+   height: 100vh;
+   width: 100vw;
+
+   background: rgba(145, 154, 150, 0.3);
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.fora-do-modal {
+   position: absolute;
+   z-index: -3;
+   top: 0;
+   left: 0;
+
+   height: 100vh;
+   width: 100vw;
+}
+
+.containerFormularioCadastroHome {
+   position: relative;
+
+   background: #ffffff;
+   width: 491px;
+   border-radius: 30px;
+
+   padding: 40px 55px;
+}
+
+.containerFormularioCadastroHome h1 {
+   font-family: "Montserrat";
+   font-size: 24px;
+   line-height: 130%;
+   color: #343447;
+   text-align: center;
+   margin-bottom: 12px;
+}
+
+.containerFormularioCadastroHome img {
+   position: absolute;
+   top: 34px;
+   right: 32px;
+   cursor: pointer;
+}
+
+.containerFormularioCadastroHome h3 {
+   font-family: "Nunito";
+   font-size: 14px;
+   line-height: 20px;
+   color: #344054;
+   margin-bottom: 6px;
+   margin-top: 20px;
+}
+
+.containerFormularioCadastroHome input {
+   all: unset;
+   box-sizing: border-box;
+
+   padding: 10px 14px;
+   background: #ffffff;
+   border: 1px solid #d0d5dd;
+   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+   border-radius: 8px;
+   margin-bottom: 6px;
+   height: 44px;
+}
+
+.containerLongoUsuario {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+
+.inputConfirmarSenhaEditarCadastro {
+   position: relative;
+}
+.longoUltimoUsuario .olho-senha,
+.inputConfirmarSenhaEditarCadastro .olho-senha {
+   position: absolute;
+   inset: 0;
+   top: 55px;
+   left: 350px;
+}
+
+.inputConfirmarSenhaEditarCadastro .olho-senha {
+   top: 60px;
+}
+.containerLongoUsuario input {
+   width: 382px;
+}
+
+.containerMedioUsuario {
+   display: flex;
+   gap: 24px;
+}
+
+.containerMedioUsuario input {
+   width: 178px;
+}
+
+.longoUltimoUsuario h3 {
+   margin-top: 14px;
+}
+
+.botaoAtualizarUsuario {
+   display: flex;
+   justify-content: center;
+   margin-top: 19px;
+}
+
+.botaoAtualizarUsuario button {
+   all: unset;
+   box-sizing: border-box;
+   padding: 4px 40px;
+   width: 160px;
+   height: 33px;
+   background: #da0175;
+   border-radius: 10px;
+
+   font-family: "Nunito";
+   font-size: 18px;
+   line-height: 25px;
+   color: #f8f8f9;
+   text-align: center;
+
+   cursor: pointer;
+}
+
+.errorUsuario {
+   font-family: "Inter";
+   font-size: 14px;
+   line-height: 20px;
+   color: #e70000;
+}

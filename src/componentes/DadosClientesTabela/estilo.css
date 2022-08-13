@@ -1,0 +1,44 @@
+.dadosClientesTabela {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   width: 1070px;
+   height: 50px;
+
+   border-bottom: 1px solid #eff0f6;
+}
+
+.dadosClientesTabela p {
+   font-family: "Nunito";
+   font-size: 14px;
+   line-height: 24px;
+   color: #747488;
+}
+
+.dadoTabelaStatus p {
+   border-radius: 8px;
+   height: 19px;
+   width: 99px;
+   font-weight: 600;
+   line-height: 19px;
+   text-align: center;
+}
+
+.dadoTabelaStatus .dadoTabelaStatusInad {
+   background: #ffefef;
+   color: #971d1d;
+}
+
+.dadoTabelaStatus .dadoTabelaStatusPago {
+   background: #EEF6F6;
+   color: #1FA7AF;
+}
+
+.colunaTabelaTodos {
+   width: 170px;
+}
+
+.colunaTabelaTodos img, .dadoClientesTabelaClique, .colunaTabelaNumero6 img {
+   cursor: pointer;
+}

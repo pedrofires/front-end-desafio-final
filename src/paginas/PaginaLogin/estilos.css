@@ -1,0 +1,106 @@
+.container-login {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  font-family: "Montserrat";
+}
+
+.container-login-imagem {
+  height: 100vh;
+  width: auto;
+
+  background: url(../../imagens/imagemLogin.svg);
+  background-size: cover;
+}
+
+.container-login-imagem h1 {
+  font-size: 24px;
+  color: #034a2a;
+
+  width: 482px;
+
+  padding: 163px 47px;
+
+  text-align: center;
+
+  font-weight: 600;
+}
+
+.container-input-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.container-input-login h1 {
+  color: #343447;
+  font-size: 24px;
+  margin-bottom: 34px;
+}
+
+.container-input-login form {
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Nunito";
+}
+
+.container-input-login input {
+  width: 344px;
+  height: 44px;
+
+  background: #ffffff;
+
+  border: 1px solid #d0d5dd;
+  padding: 10px 14px;
+  margin-top: 6px;
+
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+input::placeholder {
+  color: #667085;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.container-senha-label {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 20px;
+  position: relative;
+}
+
+.container-senha-label img {
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.container-senha-label a {
+  color: #da0175;
+  font-size: 14px;
+}
+
+.login-btn-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 46px;
+}
+
+.login-btn-link span {
+  margin-top: 19px;
+}
+
+.login-btn-link a {
+  color: #da0175;
+}

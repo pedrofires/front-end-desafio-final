@@ -1,0 +1,17 @@
+.Toastify .corDeFundoSucesso,
+.Toastify__close-button--light {
+   background-color: #c3d4fe;
+   color: #243f80;
+}
+
+.Toastify .corDeFundoFalha,
+.Toastify__close-button--light {
+   background-color: #f2d6d0;
+   color: #ae1100;
+}
+
+.Toastify__close-button > svg {
+   position: absolute;
+   top: 24px;
+   right: 8px;
+}

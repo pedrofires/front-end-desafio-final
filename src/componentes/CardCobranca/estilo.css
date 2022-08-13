@@ -1,0 +1,84 @@
+.dadosDaTabelaCobranca {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   height: 56px;
+   border-bottom: 1px solid #EFF0F6;
+}
+
+.dadosDaTabelaCobranca p {
+   font-size: 14px;
+   line-height: 40px;
+   letter-spacing: 0.005em;
+   color: #6E6E85;
+}
+
+.divTabValorCobrancaDados h3 {
+   font-family: 'Nunito';
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 19px;
+   text-align: center;
+   border-radius: 8px;
+   width: 77px;
+   height: 19px;
+}
+
+.divTabValorCobrancaDados .divTabValorCobrancaDadosVenc {
+   color: #971D1D;
+   background: #FFEFEF;
+}
+
+.divTabValorCobrancaDados .divTabValorCobrancaDadosPend {
+   color: #C5A605;
+   background: #FCF6DC;
+}
+
+.divTabValorCobrancaDados .divTabValorCobrancaDadosPago {
+   color: #1FA7AF;
+   background: #EEF6F6;
+}
+.divTabIdCobranca {
+   width: 170px;
+}
+.divTabVencimentoCobranca{
+   width: 170px;
+}
+.divTabValorCobranca{
+   width: 155px;
+}
+.divTabStatusCobrancas{
+   width: 160px;
+}
+.divTabDescricaoCobranca{
+   width: 310px;
+}
+
+.divTabOpcoesCobranca {
+   width: 91px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-right: 17px;
+   gap: 24px;
+}
+
+
+
+.divTabOpcoesCobranca div {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
+
+.divTabOpcoesCobranca h4 {
+   font-size: 8px;
+   line-height: 11px;
+   color: #747488;
+}
+
+.divTabCobrancaTam05Mod {
+   width: 280px;
+}

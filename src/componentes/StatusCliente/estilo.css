@@ -1,0 +1,96 @@
+.cardStatusCliente {
+  width: 556px;
+  height: 397px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 0px 24px;
+  box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+}
+
+.cabecalhoMiniTabelaClientes {
+  height: 58px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eff0f7;
+}
+
+.cabecalhoMiniTabelaClientes h1 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  color: #3f3f55;
+}
+
+.cabecalhoMiniTabelaClientesInfo {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+
+.cabecalhoMiniTabelaClientesNumero {
+  background: #ffefef;
+  border-radius: 8px;
+  width: 52px;
+  height: 21px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cabecalhoMiniTabelaClientesNumero h2 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 130%;
+  width: 52px;
+  border-radius: 8px;
+  text-align: center;
+
+}
+
+.miniTabelaClientesCabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 66px;
+  border-bottom: 1px solid #eff0f7;
+}
+
+.miniTabelaClientesCabecalho h1 {
+  font-family: "Nunito";
+  font-size: 16px;
+  line-height: 50px;
+  color: #3f3f55;
+}
+
+.miniTabelaNomesClientes {
+  width: 210px;
+}
+
+.miniTabelaNomesData {
+  width: 150px;
+}
+
+.miniTabelaNomesVenc {
+  width: 148px;
+}
+
+.linkMiniTabela {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkMiniTabela a {
+  font-family: "Nunito";
+  font-size: 18px;
+  line-height: 130%;
+  text-decoration-line: underline;
+  color: #da0175;
+  cursor: pointer;
+}

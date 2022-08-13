@@ -1,0 +1,120 @@
+.unicoCardDetalheCobranca {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   position: fixed;
+   top: 0;
+   left: 108px;
+   right: 0;
+   bottom: 0;
+
+   background: rgba(145, 154, 150, 0.3);
+}
+
+.divLivreCardDetalheCobranca {
+   width: 108px;
+}
+
+.divLivreCardDetalheCobranca {
+   position: absolute;
+   top: 0;
+   left: 0;
+
+   height: 100vh;
+   width: 100vw;
+}
+
+.conteudoCardDetalheCobranca {
+   position: relative;
+   width: 600px;
+   height: 461px;
+   padding: 40px 55px;
+   background: #ffffff;
+   border-radius: 30px;
+}
+
+.iconeFecharCardDetalheCobranca {
+   position: absolute;
+   top: 30px;
+   right: 30px;
+   cursor: pointer;
+}
+
+.tituloCardDetalheCobranca {
+   display: flex;
+   align-items: center;
+   gap: 24px;
+   margin-bottom: 12px;
+}
+
+.tituloCardDetalheCobranca h1 {
+   font-family: "Montserrat";
+   font-size: 26px;
+   line-height: 130%;
+   color: #3f3f55;
+}
+
+.iconeCobrancaCardDetalheCobranca {
+   height: 25px;
+}
+
+.conteudoInfoCardDetalheCobranca h1,
+p {
+   font-family: "Nunito";
+   font-size: 16px;
+   line-height: 24px;
+   color: #3f3f55;
+}
+
+.conteudoInfoCardDetalheCobranca h1 {
+   margin-bottom: 8px;
+}
+
+.conteudoInfoCardDetalheCobranca
+   .conteudoInfoTituloDescricaoCardDetalheCobranca {
+   margin-bottom: 4px;
+}
+
+.conteudoInfoCardDetalheCobranca p {
+   margin-bottom: 24px;
+}
+
+.conteudoInferiorCardDetalheCobranca {
+   display: flex;
+}
+
+.conteudoInferiorCardDetalheCobranca div {
+   width: 245px;
+}
+
+.conteudoInferiorCardDetalheCobranca .conteudoInferiorPCardDetalheCobranca p {
+   margin-bottom: 0;
+}
+
+.conteudoInferiorPCardDetalheCobrancaStatusPago {
+   color: #1fa7af;
+   background: #eef6f6;
+}
+
+.conteudoInferiorPCardDetalheCobrancaStatusPend {
+   color: #c5a605;
+   background: #fcf6dc;
+}
+
+.conteudoInferiorPCardDetalheCobrancaStatusVenc {
+   color: #971d1d;
+   background: #ffefef;
+}
+
+.conteudoInferiorPCardDetalheCobrancaStatusPago,
+.conteudoInferiorPCardDetalheCobrancaStatusPend,
+.conteudoInferiorPCardDetalheCobrancaStatusVenc {
+   width: 90px;
+   height: 19px;
+   border-radius: 8px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: 600;
+}

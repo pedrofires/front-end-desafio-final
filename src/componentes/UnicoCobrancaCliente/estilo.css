@@ -1,0 +1,44 @@
+.unicoCobrancaCliente {
+    width: 1115px;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 31px 23.5px;
+    margin-top: 24px;
+}
+
+.menuUnicoCobrancaCliente {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 19px;
+}
+
+.menuUnicoCobrancaCliente h1 {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 130%;
+    color: #3F3F55;
+}
+
+.menuUnicoCobrancaCliente button {
+    all: unset;
+    box-sizing: border-box;
+
+    width: 252px;
+    height: 33px;
+    background: #DA0175;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    font-family: 'Nunito';
+    font-size: 18px;
+    line-height: 25px;
+    color: #F8F8F9;
+
+    cursor: pointer;
+}
+

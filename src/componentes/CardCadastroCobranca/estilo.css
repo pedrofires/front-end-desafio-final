@@ -1,0 +1,223 @@
+.cardCadastroCobrancaModal {
+   width: 100vw;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   background: rgba(145, 154, 150, 0.3);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 1;
+}
+
+.foraModalCadastro {
+   position: absolute;
+   z-index: -3;
+   top: 0;
+   left: 0;
+
+   height: 100vh;
+   width: 100vw;
+}
+
+.icone-fechar-cadastro {
+   position: absolute;
+   top: 35px;
+   right: 30px;
+   cursor: pointer;
+}
+.cardCadastroCobranca {
+   width: 600px;
+   height: 767px;
+   background: #ffffff;
+   border-radius: 30px;
+
+   padding: 40px 57.5px 34px;
+   position: relative;
+}
+
+.cardCadastroCobranca label {
+   font-family: "Nunito";
+   font-size: 14px;
+   line-height: 20px;
+   color: #3f3f55;
+
+   margin-bottom: 4px;
+}
+
+.cardCadastroCobranca input {
+   all: unset;
+   box-sizing: border-box;
+   padding: 10px 16px;
+   background: #ffffff;
+   border: 1px solid #d0d5dd;
+   border-radius: 8px;
+   margin-bottom: 8px;
+}
+
+.cardCadastroCobranca span {
+   font-family: "Nunito";
+   font-size: 12px;
+   line-height: 16px;
+   color: #e70000;
+   margin-top: -4px;
+   margin-bottom: 4px;
+}
+
+.tituloCardCadastroCobranca {
+   display: flex;
+   align-items: center;
+   gap: 24px;
+   height: 35px;
+   margin-bottom: 24px;
+}
+
+.tituloCardCadastroCobranca h1 {
+   font-size: 26px;
+   line-height: 130%;
+   color: #3f3f55;
+}
+
+.tituloCardCadastroCobranca img {
+   height: 19px;
+}
+
+.inputPrimarioCardCadastroCobranca {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 20px;
+}
+
+.inputPrimarioCardCadastroCobranca input {
+   width: 485px;
+   height: 44px;
+}
+
+.inputPrimarioDescricaoCardCadastroCobranca {
+   all: unset;
+   box-sizing: border-box;
+
+   background: #ffffff;
+   border: 1px solid #d0d5dd;
+   border-radius: 8px;
+
+   padding: 10px 16px;
+   margin-bottom: 8px;
+
+   width: 485px;
+}
+.inputPrimarioCardCadastroCobranca .inputPrimarioDescricaoCardCadastroCobranca {
+   height: 88px;
+}
+
+.inputSecundarioCardCadastroCobranca {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+
+.inputSecundarioDivsCardCadastroCobranca {
+   position: relative;
+
+   display: flex;
+   flex-direction: column;
+}
+
+.inputSecundarioDivsCardCadastroCobranca input {
+   width: 232px;
+   height: 44px;
+}
+
+.inputTerciarioCardCadastroCobranca {
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+   margin-bottom: 156px;
+}
+
+.inputTerciarioCardCadastroCobranca label {
+   margin-bottom: -4px;
+}
+
+.inputTerciarioDivsCardCadastroCobranca {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   padding-left: 16px;
+   background: #f0f0f5;
+   border-radius: 10px;
+   width: 487px;
+   height: 48px;
+}
+
+.inputTerciarioDivsCardCadastroCobranca input {
+   all: unset;
+   box-sizing: border-box;
+   width: 24px;
+   height: 24px;
+   background: #c8c8d7;
+   border-radius: 28px;
+   cursor: pointer;
+}
+
+.inputTerciarioDivsCardCadastroCobranca input:checked {
+   background: #0e8750;
+   background-image: url("../../imagens/iconeCheckInputCardCobranca.svg");
+   background-position: center;
+   background-repeat: no-repeat;
+   cursor: pointer;
+}
+
+.buttonCardCadastroCobranca {
+   display: flex;
+   justify-content: space-between;
+}
+
+.buttonCardCadastroCobranca button {
+   all: unset;
+   box-sizing: border-box;
+
+   border-radius: 10px;
+   width: 233px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   font-family: "Nunito";
+   font-size: 18px;
+   line-height: 25px;
+
+   cursor: pointer;
+}
+
+.buttonCardCadastroCobranca .buttonCancelarCardCadastroCobranca {
+   height: 33px;
+   background: #f8f8f9;
+   border: 1px solid #dedee9;
+   color: #0e8750;
+}
+
+.buttonCardCadastroCobranca .buttonEditarCardCadastroCobranca {
+   height: 34px;
+   background: #da0175;
+   color: #f8f8f9;
+}
+.cifrao,
+.valor {
+   color: black;
+   width: 0;
+   font-size: 13px;
+
+   position: absolute;
+
+   inset: 0;
+   top: 36px;
+   left: 10px;
+}
+.inputSecundarioDivsCardCadastroCobranca .valorInput {
+   padding-left: 30px;
+}

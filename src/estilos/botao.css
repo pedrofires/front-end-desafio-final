@@ -1,0 +1,20 @@
+.btn-rosa {
+   all: unset;
+   box-sizing: border-box;
+
+   padding: 4px 40px;
+
+   background: #da0175;
+   border-radius: 10px;
+   color: #f8f8f9;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 25px;
+
+   cursor: pointer;
+}
+
+.btn-rosa:hover,
+.btn-hover:hover {
+   opacity: 0.8;
+}

@@ -1,0 +1,39 @@
+.infoUsuario {
+   position: relative;
+
+   cursor: pointer;
+
+   display: flex;
+   align-items: center;
+   gap: 16px;
+   padding-bottom: 24px;
+}
+
+.iniciaisUsuario {
+   border-radius: 50%;
+   background: #dedee9;
+   width: 48px;
+   height: 48px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.iniciaisUsuario h2 {
+   font-family: 'Nunito';
+   font-size: 22px;
+   line-height: 30px;
+   color: #0E8750;
+}
+
+.infoUsuario p {
+   font-family: "Nunito";
+   font-size: 18px;
+   line-height: 25px;
+   color: #0e8750;
+}
+
+.infoUsuario img {
+   width: 14px;
+   height: 8px;
+}

@@ -1,0 +1,54 @@
+.menuClientesTabela {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   width: 1070px;
+   height: 50px;
+
+   border-bottom: 1px solid #eff0f6;
+}
+
+.menuClientesTabela p {
+   font-family: "Nunito";
+   font-size: 16px;
+   line-height: 50px;
+   letter-spacing: 0.005em;
+   color: #3f3f55;
+}
+
+.colunaCliente {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   width: 178px;
+   cursor: pointer;
+}
+
+.colunaCliente img {
+   height: 20px;
+   width: 12.5px;
+}
+
+.colunaCliente {
+   width: 170px;
+}
+
+.colunaTabelaNumero24 {
+   width: 115px;
+}
+
+.colunaTabelaNumero5 {
+   width: 100px;
+}
+
+.colunaTabelaNumero3 {
+   width: 190px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   overflow: hidden;
+}
+
+.colunaTabelaNumero6 {
+   width: 110px;
+}

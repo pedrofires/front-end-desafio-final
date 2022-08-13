@@ -1,0 +1,20 @@
+.cadastro-concluido {
+   width: 330px;
+   height: 54px;
+
+   background: #c3d4fe;
+   box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   z-index: 2;
+}
+
+.cadastro-concluido h3 {
+   font-family: "Nunito";
+   font-size: 14px;
+   line-height: 19px;
+   color: #243f80;
+}

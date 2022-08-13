@@ -1,0 +1,14 @@
+.cardStatusClienteInformacoes {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #EFF0F7;
+}
+
+.cardStatusClienteInformacoes h1 {
+  font-family: 'Nunito';
+  font-size: 14px;
+  line-height: 40px;
+  letter-spacing: 0.005em;
+  color: #747488;
+}

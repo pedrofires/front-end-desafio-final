@@ -1,0 +1,156 @@
+.container-modal-cadastro {
+   height: 100vh;
+   width: 100vw;
+   background: rgba(145, 154, 150, 0.3);
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+   bottom: 0px;
+   z-index: 1;
+}
+
+.foraDoModalCliente {
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   left: 0;
+
+   height: 100vh;
+   width: 100vw;
+}
+
+.container-formulario {
+   width: 600px;
+
+   background: #ffffff;
+   border-radius: 30px;
+   padding: 39px 56px;
+   position: relative;
+}
+
+.btn-fechar {
+   position: absolute;
+   top: 30px;
+   right: 30px;
+   cursor: pointer;
+}
+
+.container-titulo-cadastro-cliente {
+   display: flex;
+   gap: 16px;
+   margin-bottom: 12px;
+}
+
+.container-titulo-cadastro-cliente img {
+   width: 32px;
+   height: 32px;
+}
+
+.container-titulo-cadastro-cliente h1 {
+   font-family: "Montserrat";
+   font-size: 26px;
+   line-height: 130%;
+   color: #3f3f55;
+}
+
+.formularioEditarCliente h1 {
+   font-family: "Nunito";
+   font-size: 14px;
+   line-height: 20px;
+   color: #3f3f55;
+
+   margin-bottom: 4px;
+   margin-top: 4px;
+}
+
+.formularioEditarCliente input {
+   all: unset;
+   box-sizing: border-box;
+
+   background: #ffffff;
+   border: 1px solid #d0d5dd;
+   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+   border-radius: 8px;
+
+   margin-bottom: 4px;
+   padding: 10px 14px;
+   height: 44px;
+}
+
+.containerInputLongo {
+   display: flex;
+   flex-direction: column;
+}
+
+.containerInputLongo input {
+   width: 488px;
+}
+
+.containerInputMedio,
+.containerInputVariado {
+   display: flex;
+   gap: 24px;
+}
+
+.containerInputMedio input {
+   width: 232px;
+}
+
+.containerInputLongo .containerInputLongoComSpan input {
+   margin-bottom: 24px;
+}
+
+.containerInputVariado .inputCidade {
+   width: 303px;
+}
+
+.containerInputVariado .inputUf {
+   width: 160px;
+}
+
+.containerBtnCadastro {
+   display: flex;
+   gap: 23px;
+}
+
+.containerBtnCadastro button {
+   all: unset;
+   box-sizing: border-box;
+
+   height: 33px;
+   margin-top: 53px;
+   border-radius: 10px;
+
+   font-family: "Nunito";
+   font-size: 18px;
+   line-height: 25px;
+   text-align: center;
+
+   cursor: pointer;
+}
+
+.containerBtnCadastro .btnCancelarCadastro {
+   width: 233px;
+   background: #f8f8f9;
+   border: 1px solid #dedee9;
+   color: #0e8750;
+}
+
+.containerBtnCadastro .btnEditarCadastro {
+   width: 231px;
+   background: #da0175;
+   color: #f8f8f9;
+}
+
+.erroCadastro {
+   font-family: "Nunito";
+   font-size: 12px;
+   line-height: 16px;
+   color: #e70000;
+   margin-bottom: 4px;
+}

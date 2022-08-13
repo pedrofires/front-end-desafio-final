@@ -1,0 +1,48 @@
+.cabecalhoPaginaNormal,
+.cabecalhoPaginaEstilizada {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100vw - 108px - 64px);
+    height: 72px;
+    padding: 0px 110px 0px 50px;
+    border-bottom: 1px solid #ACD9C5;
+    margin-bottom: 19px;
+}
+
+.cabecalhoPaginaNormal {
+    align-items: center;
+}
+
+.cabecalhoPaginaEstilizadaH1 {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.cabecalhoPaginaNormal h1 {
+    font-family: 'Montserrat';
+    font-size: 26px;
+    line-height: 130%;
+    color: #343447;
+}
+
+.cabecalhoPaginaEstilizada h1 {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E8750;
+    padding-bottom: 4px;
+}
+
+.divDetalhesCliente {
+    display: flex;
+    gap: 10px;
+}
+
+.imgDetalhesCliente {
+    transform: rotate(270deg);
+}
+
+.divDetalhesCliente h1 {
+    color: #747488;
+}

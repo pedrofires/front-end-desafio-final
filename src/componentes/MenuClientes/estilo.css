@@ -1,0 +1,88 @@
+.menuClientes {
+   display: flex;
+   justify-content: space-between;
+   padding: 0 81px 0 71px;
+   width: calc(100vw - 108px - 64px);
+   height: 39px;
+   margin-top: 24px;
+}
+
+.menuClientesEsquerda {
+   display: flex;
+   align-items: center;
+   gap: 22px;
+}
+
+.menuClientesEsquerda img {
+   height: 32px;
+}
+
+.menuClientesEsquerda h1 {
+   font-family: "Montserrat";
+   font-size: 26px;
+   line-height: 130%;
+   color: #3f3f55;
+}
+
+.menuClientesDireita {
+   display: flex;
+   align-items: center;
+   gap: 16px;
+}
+
+.menuClientesDireitaDiv {
+   display: flex;
+   align-items: center;
+   gap: 16px;
+   position: relative;
+}
+
+.menuClientesDireita button {
+   all: unset;
+   box-sizing: border-box;
+
+   width: 266px;
+   height: 33px;
+   background: #da0175;
+   border-radius: 10px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 4px;
+
+   font-family: "Nunito";
+   font-size: 18px;
+   line-height: 25px;
+   color: #f8f8f9;
+
+   cursor: pointer;
+}
+
+.menuClientesDireita input {
+   all: unset;
+   box-sizing: border-box;
+
+   width: 318px;
+   height: 39px;
+   background: #ffffff;
+   border-radius: 10px;
+   box-shadow: 4px 4px rgba(218, 1, 117, 0.05);
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 7px 44px 7px 12px;
+   gap: 205px;
+}
+
+.menuClientesDireita .iconeLupa {
+   position: absolute;
+   top: 11px;
+   right: 20px;
+   cursor: pointer;
+}
+
+.menuClientesDireita .iconeFiltro {
+   cursor: pointer;
+}

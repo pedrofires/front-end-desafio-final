@@ -1,0 +1,91 @@
+.unicoDadosCliente {
+    width: 1115px;
+    height: 268.53px;
+    padding: 24px 25px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    margin-top: 24px;
+}
+
+.menuUnicoDadosCliente {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.menuUnicoDadosCliente h1 {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 130%;
+    color: #3F3F55;
+}
+
+.menuUnicoDadosCliente button {
+    all: unset;
+    box-sizing: border-box;
+    
+    width: 246px;
+    height: 33px;
+    background: #F8F8F9;
+    border: 1px solid #DEDEE9;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    font-family: 'Nunito';
+    font-size: 18px;
+    line-height: 25px;
+    color: #0E8750;
+
+    cursor: pointer;
+}
+
+.conteudoDadosUnicoDadosCliente {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.dadosUnicoDadosCliente {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dadosUnicoDadosCliente div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.dadosUnicoDadosCliente h1 {
+    font-family: 'Nunito';
+    font-size: 16px;
+    line-height: 24px;
+    color: #3F3F55;
+}
+
+.dadosUnicoDadosCliente p {
+    font-family: 'Nunito';
+    font-size: 16px;
+    line-height: 24px;
+    color: #3F3F55;
+}
+
+.dadosUnicoDadosClienteTam01 {
+    width: 80px;
+}
+
+.dadosUnicoDadosClienteTam02 {
+    width: 150px;
+}
+
+.dadosUnicoDadosClienteTam03 {
+    width: 184px;
+}
+
+.dadosUnicoDadosClienteTam04 {
+    width: 240px;
+}

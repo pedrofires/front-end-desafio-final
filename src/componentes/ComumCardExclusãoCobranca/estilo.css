@@ -1,0 +1,90 @@
+.comumCardExclusaoCobranca {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   position: fixed;
+   top: 0;
+   left: 108px;
+   right: 0;
+   bottom: 0;
+
+   background: rgba(145, 154, 150, 0.3);
+}
+
+.divLivreCardExclusaoCobranca {
+   width: 108px;
+}
+
+.conteudoCardExclusaoCobranca {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   background: #ffffff;
+   border-radius: 30px;
+   width: 600px;
+   height: 400px;
+   position: relative;
+}
+
+.divLivreCardExclusaoCobranca {
+   position: absolute;
+   top: 0;
+   left: 0;
+
+   height: 100vh;
+   width: 100vw;
+}
+
+.fechar-cancelamento {
+   position: absolute;
+   top: 30px;
+   right: 31px;
+   cursor: pointer;
+}
+
+.advertencia {
+   height: 96px;
+}
+
+.conteudoCardExclusaoCobranca h1 {
+   font-family: "Montserrat";
+   font-size: 18px;
+   line-height: 130%;
+   color: #cc7800;
+   margin-top: 45px;
+}
+
+.conteudoCardExclusaoCobranca div {
+   display: flex;
+   gap: 16px;
+   margin-top: 27px;
+}
+
+.conteudoCardExclusaoCobranca button {
+   all: unset;
+   box-sizing: border-box;
+
+   width: 100px;
+   height: 24px;
+   border-radius: 4px;
+
+   font-family: "Nunito";
+   font-size: 18px;
+   line-height: 25px;
+   text-align: center;
+
+   cursor: pointer;
+}
+
+.conteudoCardExclusaoCobranca .botaoExclusaoCobrancaNao {
+   background: #f2d6d0;
+   color: #ae1100;
+}
+
+.conteudoCardExclusaoCobranca .botaoExclusaoCobrancaSim {
+   background: #acd9c5;
+   color: #034a2a;
+}
